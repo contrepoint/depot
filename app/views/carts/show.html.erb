@@ -2,4 +2,4 @@
   <p id="notice"><%= notice %></p>
 <% end %>
 
-<%= render @cart %> # how does this know what to search for and where to look for it?
+<%= render @cart.line_items %>
